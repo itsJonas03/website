@@ -5,7 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Experience from "../components/Experience";
+import Experience from "../components/experience";
 import { Typography, Grid, Button } from "@material-ui/core";
 import { useTrail, animated, useSpring } from "react-spring";
 import Translate, { translate } from "@docusaurus/Translate";
