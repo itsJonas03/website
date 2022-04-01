@@ -9,9 +9,9 @@ const experience = [
     position: "Computing Level 3",
     date: "July 2018 - till now ",
     desc: {
-      1: "Gained knowledge about fundamentals of the fields of Information Technology and Computer Science.",
+      1: "Gaining knowledge about fundamentals of the fields of Information Technology and Computer Science.",
       2: "Gaining C# knowledge",
-      3: "Gaining communitive skill and leadership skill",
+      3: "Gaining Digital Graphics and Animation Skill",
     },
   },
   {
