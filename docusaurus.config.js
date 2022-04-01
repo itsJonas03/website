@@ -9,22 +9,24 @@ const katex = require('rehype-katex');
 const isCI = process.env.CI === "true";
 const isPreview = process.env.DEPLOY_PREVIEW === "true";
 
-const url = isPreview ? process.env.PREVIEW_URL : "https://nicolasvaccari.com";
+const url = isPreview ? process.env.PREVIEW_URL : "https://website-e84.pages.dev/";
 const baseUrl = isPreview ? process.env.PREVIEW_BASE_URL : "/";
 const completeUrl = url + baseUrl;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   
-  title: 'Nicolas Vaccari',
-  tagline: 'Sitoweb personale',
+  title: "Jonas",
+  
+  
+  tagline: 'Personal Website',
   url: url,
   baseUrl: baseUrl,
   onBrokenLinks: isCI ? "throw" : "warn",
   onBrokenMarkdownLinks: isCI ? "throw" : "warn",
   onDuplicateRoutes: isCI ? "throw" : "error",
   favicon: 'img/favicon.ico',
-  organizationName: 'Nicolas Vaccari',
+  organizationName: 'Jonas Verdeflor',
   projectName: 'website',
   trailingSlash: false,
   noIndex: isPreview,
@@ -38,7 +40,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/nicolasvac/univr/',
+          editUrl: 'https://github.com/itsjonas03/website/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           sidebarCollapsible: true,
@@ -61,23 +63,50 @@ const config = {
   ],
 
   themes: ['@docusaurus/theme-live-codeblock'],
-
+  
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Nicolas Vaccari',
+        title: 'Jonas Verdeflor',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
+        
         items: [
           {
+            type: "localeDropdown",
+            position: "left",
+          },
+          {
+            to: "/college-notes/intro",
+            label: "College",
+            position: "right",
+            items: [
+              {
+                label: "Year 12",
+                to: "/college-notes/year-12/intro",
+              },
+              {
+                label: "Year 13",
+                to: "/college-notes/year-13/intro",
+              },
+            ],
+          },
+          {
             type: "doc",
-            label: "Università",
-            docId: "intro",
-          }
+            label: "🔒Univerisity",
+            position: "right",
+            docId: "uni-notes/intro",
+          },
+          {
+            href: "https://github.com/itsjonas03",
+            label: "GitHub",
+            position: "right",
+          },
         ],
+        
       },
       footer: {
         style: 'dark',
@@ -91,12 +120,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/nicolasvac',
+                href: 'https://github.com/itsjonas03',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Nicolas Vaccari`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jonas Verdeflor, Built with Docusaurus`,
       },
       prism: {
         theme: lightCodeTheme,

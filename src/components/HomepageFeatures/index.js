@@ -4,22 +4,21 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Docusaurus',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This website is a open souce built by Docusaurus. 
+        Docusaurus is a tool designed to make it easy for teams to publish documentation websites without having to worry about the infrastructure and design details.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'About Me',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        This website is built for personal prupose. It contains all the notes gathered in my college and university experience.
       </>
     ),
   },
