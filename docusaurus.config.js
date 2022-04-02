@@ -25,7 +25,7 @@ const config = {
   onBrokenLinks: isCI ? "throw" : "warn",
   onBrokenMarkdownLinks: isCI ? "throw" : "warn",
   onDuplicateRoutes: isCI ? "throw" : "error",
-  favicon: 'img/favicon.ico',
+  favicon: 'img/iconlogo.ico',
   organizationName: 'Jonas Verdeflor',
   projectName: 'website',
   trailingSlash: false,
@@ -139,7 +139,7 @@ const config = {
                 label: "React Spring",
                 href: "https://react-spring.io/"
               },
-              
+
 
             ]
           },
