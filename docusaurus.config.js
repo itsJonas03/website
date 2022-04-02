@@ -15,10 +15,10 @@ const completeUrl = url + baseUrl;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  
+
   title: "Jonas",
-  
-  
+
+
   tagline: 'Personal Website',
   url: url,
   baseUrl: baseUrl,
@@ -63,7 +63,7 @@ const config = {
   ],
 
   themes: ['@docusaurus/theme-live-codeblock'],
-  
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -73,7 +73,7 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
-        
+
         items: [
           {
             type: "localeDropdown",
@@ -100,19 +100,51 @@ const config = {
             position: "right",
             docId: "uni-notes/intro",
           },
+
+          {
+            href: "https://discordapp.com/users/349274596907941889",
+            position: "right",
+            className: "discord-icon",
+            "aria-label": "Discord",
+          },
           {
             href: "https://github.com/itsjonas03",
-            label: "GitHub",
             position: "right",
+            className: "github-icon",
+            "aria-label": "GitHub",
           },
+
         ],
-        
+
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Links',
+            title: "Learn",
+            items: [
+              {
+                label: "Docusaurus",
+                href: "https://docusaurus.io/"
+              },
+              {
+                label: "React",
+                href: "https://reactjs.org/"
+              },
+              {
+                label: "React UI Library",
+                href: "https://mui.com/"
+              },
+              {
+                label: "React Spring",
+                href: "https://react-spring.io/"
+              },
+              
+
+            ]
+          },
+          {
+            title: 'Social Media',
             items: [
               {
                 label: 'Discord',
@@ -122,6 +154,7 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/itsjonas03',
               },
+
             ],
           },
         ],

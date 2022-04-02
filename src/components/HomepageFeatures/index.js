@@ -14,7 +14,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'About Me',
+    title: 'About the Website',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -23,12 +23,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Purpose of the website',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The purpose of this website, is not only for the notes, but also to improve my skill to create websites.
       </>
     ),
   },
@@ -61,3 +60,4 @@ export default function HomepageFeatures() {
     </section>
   );
 }
+
