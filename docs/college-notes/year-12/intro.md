@@ -1,1 +1,37 @@
+---
+
+title: Table of Contents - Year 12
+author: "Jonas"
+date: "April 2, 2022"
+
+---
+
+---
+
 # Arguments of Year 12
+
+In Cheshire West College, the department of Computer Science, introduced these Units:
+
++ Unit 1 - Principals of Computer Networks
++ Unit 2 - Fundementals of Computer System
++ Unit 7 - IT System Security and Ecryption
++ Unit 8 - Business Application of Social Media
++ Unit 11 - Digital Graphics and Animation
++ Unit 22 - System Analysis
+
+---
+
+## Table of Contents
+
+1. [:orange_book: Unit 1](/college-notes/year-12/unit-1/intro)    
+    1. [Introduction](/college-notes/year-12/unit-1/intro)
+    2. [Computational Thinking](/college-notes/year-12/unit-1/computational-thinking)
+    3. [Algorithm Thinking](/college-notes/year-12/unit-1/algorithm)
+    4. [Flowchart and Pseudocode](/college-notes/year-12/unit-1/flowchart-and-pseudocode)
+    5. [C#](/college-notes/year-12/unit-1/csharp/intro)
+        1. [Introduction](/college-notes/year-12/unit-1/csharp/intro)
+        2. [Datatype](/college-notes/year-12/unit-1/csharp/datatype)
+2. [:blue_book: Unit 2](/college-notes/year-12/unit-2/intro)
+    1. [Introduction](/college-notes/year-12/unit-2/intro)
+    2. [Principle of computer](/college-notes/year-12/unit-2/principle-of-computer)
+4. [Personal Achievement](#personal-achievements/intro)

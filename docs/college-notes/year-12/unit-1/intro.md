@@ -1,9 +1,11 @@
 ---
 title: Introduction to the Unit 1
+author: "Jonas"
+date: "April 2, 2022"
 sidebar_position: 1
 ---
 
-## Principles of Computer System
+# Principles of Computer System
 
 In this Unit, it is explained the principles of computer system and also there is a category focused on the C# language.
 

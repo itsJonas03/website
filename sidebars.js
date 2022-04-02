@@ -42,7 +42,6 @@ const sidebars = {
               items: [
                 "college-notes/year-12/unit-1/intro",
                 "college-notes/year-12/unit-1/computational-thinking",
-                "college-notes/year-12/unit-1/pattern-generalisation-and-abstraction",
                 "college-notes/year-12/unit-1/algorithm",
                 "college-notes/year-12/unit-1/flowchart-and-pseudocode",
                 {
