@@ -1,0 +1,37 @@
+---
+
+title: Validation
+sidebar: 1
+
+---
+
+## Validation
+
+Validation is the process that attempets to prevent nonsensical inputs.
+
+The term "**Constraints**" are often used to describe limiting factors which be used to validate user inputs.
+
+```Try/catch``` is one example of constraint to limit the input. Other types of validation do not use special functions (blocks of code are designed to do a particular job).
+Other types of validation do not use special functions (blocks of code are designed to do a particular job).
+
+:::note 
+
+It is **important** to build in validation rules into a solution as it will check whether the inputs are
+sensible and prevents inaccurate results, run-time errors or fatal crashes.
+
+:::
+
+When error occur a post action check will direct the user what to do or what mistake that
+they have made.
+
+```cs
+public static void Main(){
+    try{ //try these lines of code
+        Console.WriteLine("...");
+
+    }
+    catch(exception e){ //catch any exception
+        Console.WriteLine("please enter a number");
+    }
+}
+```

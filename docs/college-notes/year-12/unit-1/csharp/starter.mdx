@@ -1,0 +1,117 @@
+---
+
+title: Basic Things 
+sidebar: 1
+
+---
+
+## Structure
+
+Before going into C# programming, we should look at the minimum structure C# programm.
+
+``` cs
+using System;
+namespace Program {
+    class Program {
+        static void Main (string[] args) {
+            Console.WriteLine("Hello World!");
+            Console.ReadLine();
+        }
+    }
+}
+```
+
+When this code is compiled and executed, it will display ```Hello World"!```.
+
+:::note
+- C# is case sensitive !
+- All the statement/declaration must end with a semicolon (;).
+- The program execution starts at the Main method.
+:::
+
+---
+
+## Input and Outputs
+
+The command to input is ```Console.WriteLine();```.
+
+However, the command to output or display is ```Console.ReadLine();```.
+
+---
+
+## Arithmetic Operator
+
+Arithmetic operator are simple mathematic operation. The following table shows all the arithmetic operator -
+
+| Operator   | Description | Example |
+| --------   | ----------- | ------- |
+| ```+```    | Adds two operand | A + B = 30| 
+| ```-```    | Substract second operand from the list | A - B = 10 |
+| ```*```    | Mutiples both operands | A * B = 200 |
+| ```/```    | Divides numerator by de-numerator | B/A = 2 |
+| ```% ```   |  Modulus Operator and remainder of after an integer division | B/A=2 |
+| ```++```   | Increment oprator increases integer value by one | A ++= 11 |
+| ```--```   | Decrement operator decreases integer value by one | A --= 9 |
+
+---
+
+## Relational Operators 
+
+Relational operator are operator that defines a replation between two entities.
+
+| Operator   | Description | Example |
+| --------   | ----------- | ------- |
+| ```==```   | Checks if the values of two operands are equal or not, if yes then condition becomes true.| (A == B) is not true |
+| ```!=```   | Checks if the values of two operands are equal or not, if values are not equal then condition becomes true. | (A!=B) is true. |
+| ``` > ```  | Checks if the value of left operand is greater than the value of right operand, if yes then condition becomes true. | (A>B) is not true |
+| ``` < ```  | Checks if the value of left operand is less than the value of right operand, if yes then condition becomes true. | (A < B) is true. |
+| ``` >= ``` | Checks if the value of left operand is greater than or equal to the value of right operand, if yes then condition becomes true. | (A >= B) is not true. |
+| ``` <= ``` | Checks if the value of left operand is less than or equal to the value of right operand, if yes then condition becomes true. | (A <= B) is true. |
+
+---
+
+## Logical Operator
+
+Logical operator are operator that connect two or more expression.
+
+| Operator   | Description | Example |
+| --------   | ----------- | ------- |
+| &&         | Called Logical AND operator. If both the operands are non zero then condition becomes true. | (A && B) is false. |
+| ||         | Called Logical OR Operator. If any of the two operands is non zero then condition becomes true. | (A || B) is true. |
+| !          | Called Logical NOT Operator. Use to reverses the logical state of its operand. If a condition is true then Logical NOT operator will make false. | !(A && B) is true. |
+
+---
+
+## Assign Operator
+
+The assignment Operator is the operator used to assign a new value to a variable.
+
+| Operator   | Description | Example |
+| --------   | ----------- | ------- |
+| ``` = ```  | Simple assignment operator, assigns value from right side operands to left side operand | X = A |
+| ``` += ``` | Add AND assignment operator, it adds right operand to the left operand and assign the result to left operand | X += A is the same as X = A + X |
+| ``` -= ``` | Substract AND assignment operator, it subtracts right operand from the left operand and assign the result to the left operand | X -= A |
+| ``` *= ``` | Multiply AND assignment operator, It multiplies right operand with the left operand and assign the result to left operand | C *= A |
+| ``` /= ``` | Divide AND assignment operator, It divides left operand with the right operand and assign the result to left operand | 	C /= A
+| ``` %= ``` | Modulus AND assignment operator, It takes modulus using two operands and assign the result to left operand | C %= A |
+
+---
+
+## Concatenation
+
+Concatenation is the process of appending one string to the end of another string. You concatenate strings by using the ```+``` operator.
+
+``` cs
+using System;
+
+namespace Program {
+
+    class Program {
+    
+        static void Main(string[] args) {
+            Console.WriteLine("Hello World!" + "Welcome to...");
+            Console.ReadLine();
+        }
+    }
+}
+```

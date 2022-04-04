@@ -1,0 +1,122 @@
+---
+
+title: Variable, Constants and DataType
+sidebar_position: 1
+
+---
+
+## Variable
+
+Variable is a container that acts like a basket. Basically, it holds information in memory (RAM) such as a number.
+
+The data can be taken in and out of the vairable in the same way you place an apple in and out of a basket.
+
+The variable is used to store data in a program until it is needed.
+
+> Anything enetered via keyboard (input) has to be stored into a variable.
+>   Before a variable can be used to store data, it must be declared (created).
+>
+> This means that a location in the RAM must be created with the correct amount of space, 
+> but as RAM has a complicated memory addres using numbers a simple identifier is used.
+>
+> So each variables uses an English word that is meaningful to the data. 
+>> The variables identify is a reference to the real address space in memory. 
+
+---
+
+## Constants
+
+Constants are a way of storing a value that will not be changed. Constants aren't variables and therefore may not be modified.
+
+Constants can be used stoore all the different datatypes this included numbers, boolean and strings.
+
+:::tip
+Don't create a constant to represent information that you expect to change at any time.
+:::
+
+Example:
+
+``` Const Double pie = 3.142; ```
+
+---
+
+## Differences between C# and Python
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="cSharp" label="C#" default>
+
+C# requires you to declare the variable and then use it.
+
+```cs
+public class Program
+{
+    public static void Main(){
+
+    String name = "";
+    name = "John";
+
+    // You can declare and assign a value at the same time
+    name = "John";
+    }
+}
+```      
+  </TabItem>
+  <TabItem value="codeblock" label="Python">
+      Python has no command for declaring a variable. A variable is created the moment you first assign a value to it.
+
+```python
+name = "John"
+```
+    
+:::note
+String is used for C# but not for python. String is called a data type. In Python it selects the one it thinks you need.
+:::
+
+
+  </TabItem>
+</Tabs>
+
+---
+
+## Datatype 
+
+The data type says how much memory will be allocated to that variable.
+
+:::info
+Some languages such as python do not need you to include a data tye when declaring a variable. 
+:::
+
+Datatype will tell the computer what type of data the variable can store and how to handle the data.
+
+:::note
+Datatypes are important because it will ensure that enough space has been given to the value
+the variable will hold otherwise the program would crash with a memory overflow problem
+:::
+
+export const Highlight = ({children}) => (
+  <span
+    style={{
+      color: '#9258AD',
+    }}>
+    {children}
+  </span>
+);
+
+| Datatype          | Size (in bits) | Values |
+| --------          | -------------- | ------ |
+| ```byte```        | <Highlight> 8 </Highlight>               | 0 to 255 |
+| ```int (int32)``` | <Highlight> 32 </Highlight>             | -2,147,483,648 to 2,147,483,647 |
+| ```int 16```      | <Highlight> 16 </Highlight>             | -32,768 to 32,767 |
+| ```int 64```      | <Highlight> 64 </Highlight>             | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
+| ```double```      | <Highlight> 64 </Highlight>             | -1.79769313486232e308 to 1.79769313486232e308 |
+| ```string```      | <Highlight> varies </Highlight>         | String of characters (a word)  |
+| ```bool```        | <Highlight>Boolean value</Highlight>    | True or false |
+| ```float```       | <Highlight>	32-bit single-precision floating point type</Highlight> | -3.4 x 1038 to + 3.4 x 1038 |
+
+
+
+
+

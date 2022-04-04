@@ -109,3 +109,18 @@ FOR count = 1 to 10
 END FOR
 }
 ```
+
+---
+
+### IF
+
+These use a condition to make a decision
+
+```js
+{
+IF card is invalid
+        card not accepted
+    ELSE
+    card is accepted
+}
+```
