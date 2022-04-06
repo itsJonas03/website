@@ -110,8 +110,6 @@ END FOR
 }
 ```
 
----
-
 ### IF
 
 These use a condition to make a decision

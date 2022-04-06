@@ -1,0 +1,110 @@
+---
+
+title: Data Transmission Protocols
+sidebar: 1
+
+---
+
+## Email Protocol 
+
+
+<img
+  src={require('../../../../static/year-12/unit-2/pop-imap.png').default}
+  alt="Example banner"
+  align="right"
+  width="450"
+  height="450"
+/> 
+
+### Simple Mail Transfer (SMTP)
+
+The internet standard used for sending messages across IP networks between 
+servers and also from email users (clients) to an email server.
+
+### Post Office Protocol (POP3)
+
+Used to retrieve emails from an email server, this is the most widely used email retrieval protocol. 
+Normally users download emails to their local computer using POP3 and this deletes the email from the email server.
+
+
+### Internet Message Access Protocol  (IMAP)
+
+Another protocol used to retrieve emails from an Web server.
+Normally users work on the emails as the reside on the Web server using IMAP and do not download them.
+
+## Internet
+
+The internet is simply a worldwide computer network that uses standardised 
+communication protocols to transmit and exchange data.
+
+:::info
+The internet is simply a Network of networks that allows computer networks around the world run by companies, governments, universities and other organisations to talk to one another. 
+The result is a mass of cables, computers, data centres, routers, servers, repeaters, satellites and wifi towers that allows digital information to travel around the world.
+:::
+
+### Internet Protocols
+
+When two devices send messages to each other it is called handshaking - the client requests access, the server grants it, and the protocols are agreed.
+
+Protocols will establish how two computers send and receive a message.​
+
+Data packets travel between source and destination from one router to the next. The process of exchanging data packets is known as packet switching.
+
+:::note
+**Protocols manage key points about a message**:
+- Speed of transmission
+- Size of the message
+- Error checking
+- Deciding if the transmission is synchronous or asynchronous
+:::
+
+#### Point of Presence also known as Gateway (PoP)
+
+Point of Presence is a demarcation point, access point, or physical location where two or more networks or communication devices share a connection. This location contains all the hardware that allows the Internet user to access the Internet.
+
+An Internet service provider may operate several PoPs in their area to allow reliable access to the Internet point. This protocol must not be confused with Post Office Protocol (POP3) which is used when transferring email.
+
+#### Network Access Point (NAP)
+
+A NAP is an interchange between networks and the Internet. It allows Internet service providers to interconnect with each other as well as controlling network access. A NAP system allows administrators of an organisation to define the policies for the system to help protect private networks.
+
+#### Internet Protocol (IP)
+
+The Internet Protocol (IP) is the method or protocol by which data is sent from one computer to another on the Internet. Each computer (known as a host) on the Internet has at least one IP address that uniquely identifies it from all other computers on the Internet.
+
+:::info 
+- The IP address is included in a data packet.
+- IP addresses are either 32-bit or 128-bit numbers.
+- The address is broken down into four 8-bit numbers (each is called an octet).
+- Each octet can represent a number between 0 and 255 and is separated by a full stop, eg 192.168.0.12.
+:::
+
+#### Transmission Control Protocol (TCP)
+
+TCP/IP (also known as the internet protocol suite) is the set of protocols used over the internet. It organises how data packets are communicated and makes sure packets have the following information:
+
+- **Source** - which computer the message came from
+- **Destination** - where the message should go
+- **Packet sequence** - the order the message data should be re-assembled
+- **Data** - the data of the message
+- **Error check** - the check to see that the mesage has been sent correctly
+
+#### File Transfer Protocol (FTP)
+
+A standard protocol which allows files to be transferred between two computers on a TCP-based network.
+
+FTP is used to transfer large files. It is often used for organising files on a web server for a website. 
+
+:::tip
+You can have private access to an area on an FTP server where you can upload your files. You can then give another user access to download the documents that you have shared.
+:::
+
+#### Internet Service Provider (ISP)
+
+Direct connection to internet would be very costly and so ISPs provide a cost-effective. It is a gateway for people and organisations to get onto the internet
+
+> ISPs, with some of the most popular ones being BT (British Telecom), Virgin Media and Sky. 
+
+##### Internet Service Provider Services (ISP Services)
+
+ISPs normally provide additional services such as email. Many also provide web space for the development of websites, technical support and troubleshooting. 
