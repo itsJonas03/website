@@ -1,45 +1,44 @@
 ---
 
-title: Methods/Functions/Procedures
+title: Methods
 sidebar: 1
 
 ---
 
-## Methods
+### Method/Function/Procedure
 
-A function is a separate block of code that performs a specific job. It is used as it mke it easier to write, read 
-and debug code.
+A **function** is a group of instruction that toghter perfoem a task that will help the class acieve the overall goal, aslso it returns a value.
 
-They cn be reused within the same program or other application saving both time and money.
+A **procedure** is a function that doesn't return a value.
+
+A **method** can be either function or procedure or both
+
+:::note
+A program is broken up into sections. Each section is called a **class**. Each class will have some goal that needs to achieve.
+
+A class is further broken down into sections called functions.
+
+Every C# program has at least one class with a special method named **Main**. The main method has a task to start the program running.
+:::
+
+The first line of a function/method is called a **signature**. It gives the name of the method nd each parameter variable.
+
+> It also specifies the datatype of each parameter and the return type of the data to be returned if being used.
 
 ---
 
-### Method/Function
-
-A program is broken up into sections. 
-
-Each section is called a **class**.
-
-Each class will have some goal that needs to achieve.
-
-A class is further broen down into sections called functions.
-
-A function is a group of instruction that toghter perfoem a task that will help the class acieve the overall goal.
-
-Every C# program has at least one class with a special method named **Main**.
-
-The main method has a task to start the program running.
-
 ### Simple Method Structure
 
-Public means all the program can see the mothod called Access Specifier.
+```public``` means all the program can see the mothod called Access Specifier.
 
-Void means no value will be returned once the task is complete.
+```void``` means no value will be returned once the task is complete.
 
 ``` storeData ``` is the name or the identifier of the method. This could be anything.
 
-The () brackets are used to pass data called arguments to soething called parameters. Parameters are a variation
+The ```()``` brackets are used to pass data called arguments to soething called parameters. Parameters are a variation
 of a variable that is used by the method to store data that has been passed to it
+
+The example below shows a signature for procedure as it uses void.
 
 ```cs
 public void storeData ( PARAMETERS GO HERE){
@@ -48,8 +47,76 @@ public void storeData ( PARAMETERS GO HERE){
 }
 ```
 
-### Function and Static
 
-The first line of a function/method is called a signature. It gives the name of the method nd each parameter variable.
+### Method/Function Return Signature 
 
-> It also specifies the datatype of each parameter and the return type of the data to be returned if being used.
+Sometimes a function will perform an action, such as a calculation and need to return the result back to the main body of the 
+code.
+
+To do this a ```return``` line is added to the function and the word ```void``` is replaced with the **datatype** if the value being returned
+
+```cs
+public int32 sumScores ( PARAMETERS GO HERE) {
+    // Calculation...
+    return totalResult;  
+}
+```
+
+### Method/Procedure with arguments
+
+The argument is data that is passed into the method. It is placed in the brackets into the parameters.
+
+```cs
+public void add (int nOne, int nTwo){
+    int result;
+    result = nOne + nTwo;
+}
+```
+
+#### Examples
+
+The example below shows a pseudocode of a procedure:
+
+```js
+BEGIN 
+
+    PROCEDURE MAIN
+        
+        TRIGGER myCacl
+    
+    END PROCEDURE 
+
+    PROCEDURE myCalc
+
+        DECLARE numOne, numTwo, result
+        
+        TRY
+            DISPLAY Input first number
+            INPUT numOne
+            SET input to numOne
+            DISPLAY Input second number
+            INPUT numTwo
+            SET input to numTwo
+            ADD numOne and numTWo in result
+            DISPLAY result
+        
+        END TRY
+        CATCH 
+            
+            DISPLAY enter a number 
+        
+        END CATCH
+
+    END PROCEDURE
+    
+END
+```
+
+The example below shows a flowchart made with Viso:
+
+<img
+  src={require('../../../../../static/year-12/unit-2/procedure-example-flowchart.png').default}
+  alt="Example banner"
+/> 
+
+

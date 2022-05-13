@@ -56,6 +56,7 @@ const sidebars = {
                     "college-notes/year-12/unit-1/csharp/starter",
                     "college-notes/year-12/unit-1/csharp/variable-and-datatype",
                     "college-notes/year-12/unit-1/csharp/validation",
+                    "college-notes/year-12/unit-1/csharp/method",
                   ]
                 },
               ],
