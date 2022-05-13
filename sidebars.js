@@ -77,6 +77,7 @@ const sidebars = {
                 "college-notes/year-12/unit-2/storage",
                 "college-notes/year-12/unit-2/dataprocessing",
                 "college-notes/year-12/unit-2/computer-architecture",
+                "college-notes/year-12/unit-2/interrupts",
               ],
             },
           ],
